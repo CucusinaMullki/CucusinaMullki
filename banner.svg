@@ -1,0 +1,142 @@
+<svg width="860" height="220" viewBox="0 0 860 220" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Cucusina Mullki — GitHub Profile Banner</title>
+  <desc>Animated hacker-style profile banner with purple theme showing name, role, and tech stack</desc>
+
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;family=Orbitron:wght@700&amp;display=swap');
+
+      .blink { animation: blink 1s step-end infinite; }
+      @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+
+      .pulse { animation: pulse 1.4s ease-in-out infinite; }
+      @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.15} }
+
+      .scan { animation: scan 4s linear infinite; }
+      @keyframes scan {
+        0%   { transform: translateY(0px);   opacity: 1; }
+        90%  { opacity: 0.4; }
+        100% { transform: translateY(220px); opacity: 0; }
+      }
+
+      .fadein { animation: fadein 0.6s ease both; }
+      @keyframes fadein { from{opacity:0;transform:translateY(6px)} to{opacity:1;transform:translateY(0)} }
+
+      .tag-1 { animation: fadein 0.5s 0.1s ease both; }
+      .tag-2 { animation: fadein 0.5s 0.25s ease both; }
+      .tag-3 { animation: fadein 0.5s 0.4s ease both; }
+      .tag-4 { animation: fadein 0.5s 0.55s ease both; }
+      .tag-5 { animation: fadein 0.5s 0.7s ease both; }
+    </style>
+
+    <clipPath id="clip">
+      <rect width="860" height="220" rx="12"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#clip)">
+
+    <rect width="860" height="220" rx="12" fill="#0c0a14"/>
+
+    <g opacity="0.045" stroke="#a064ff" stroke-width="0.5" fill="none">
+      <line x1="0" y1="32" x2="860" y2="32"/>
+      <line x1="0" y1="64" x2="860" y2="64"/>
+      <line x1="0" y1="96" x2="860" y2="96"/>
+      <line x1="0" y1="128" x2="860" y2="128"/>
+      <line x1="0" y1="160" x2="860" y2="160"/>
+      <line x1="0" y1="192" x2="860" y2="192"/>
+      <line x1="32" y1="0" x2="32" y2="220"/>
+      <line x1="64" y1="0" x2="64" y2="220"/>
+      <line x1="96" y1="0" x2="96" y2="220"/>
+      <line x1="128" y1="0" x2="128" y2="220"/>
+      <line x1="160" y1="0" x2="160" y2="220"/>
+      <line x1="192" y1="0" x2="192" y2="220"/>
+      <line x1="224" y1="0" x2="224" y2="220"/>
+      <line x1="256" y1="0" x2="256" y2="220"/>
+      <line x1="288" y1="0" x2="288" y2="220"/>
+      <line x1="320" y1="0" x2="320" y2="220"/>
+      <line x1="352" y1="0" x2="352" y2="220"/>
+      <line x1="384" y1="0" x2="384" y2="220"/>
+      <line x1="416" y1="0" x2="416" y2="220"/>
+      <line x1="448" y1="0" x2="448" y2="220"/>
+      <line x1="480" y1="0" x2="480" y2="220"/>
+      <line x1="512" y1="0" x2="512" y2="220"/>
+      <line x1="544" y1="0" x2="544" y2="220"/>
+      <line x1="576" y1="0" x2="576" y2="220"/>
+      <line x1="608" y1="0" x2="608" y2="220"/>
+      <line x1="640" y1="0" x2="640" y2="220"/>
+      <line x1="672" y1="0" x2="672" y2="220"/>
+      <line x1="704" y1="0" x2="704" y2="220"/>
+      <line x1="736" y1="0" x2="736" y2="220"/>
+      <line x1="768" y1="0" x2="768" y2="220"/>
+      <line x1="800" y1="0" x2="800" y2="220"/>
+      <line x1="832" y1="0" x2="832" y2="220"/>
+    </g>
+
+    <rect class="scan" x="0" y="0" width="860" height="2" rx="1" fill="url(#scangrad)"/>
+    <defs>
+      <linearGradient id="scangrad" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#a064ff" stop-opacity="0"/>
+        <stop offset="50%" stop-color="#a064ff" stop-opacity="0.2"/>
+        <stop offset="100%" stop-color="#a064ff" stop-opacity="0"/>
+      </linearGradient>
+    </defs>
+
+    <g stroke="#a064ff" stroke-width="2" opacity="0.6" fill="none">
+      <polyline points="14,26 14,14 26,14"/>
+      <polyline points="834,14 846,14 846,26"/>
+      <polyline points="14,194 14,206 26,206"/>
+      <polyline points="834,206 846,206 846,194"/>
+    </g>
+
+    <circle class="pulse" cx="36" cy="28" r="3" fill="#a064ff"/>
+    <text x="48" y="32" font-family="'Share Tech Mono', monospace" font-size="11" fill="#5a3a8a" letter-spacing="1.5">GITHUB / PROFILE README — v2.4.1</text>
+
+    <text x="40" y="78" font-family="'Share Tech Mono', monospace" font-size="16" fill="#a064ff" opacity="0.7">~$</text>
+    <text x="66" y="78" font-family="'Orbitron', 'Share Tech Mono', monospace" font-size="30" font-weight="700" fill="#f0e8ff" letter-spacing="2">Cucusina Mullki</text>
+    <rect class="blink" x="404" y="52" width="3" height="28" fill="#a064ff"/>
+
+    <text x="40" y="108" font-family="'Share Tech Mono', monospace" font-size="12" fill="#8844dd" letter-spacing="1">// Systems &amp; Graphics Developer</text>
+    <text x="316" y="108" font-family="'Share Tech Mono', monospace" font-size="12" fill="#5a3a8a" letter-spacing="1"> — building low-level, rendering high-quality</text>
+
+    <text x="40" y="140" font-family="'Share Tech Mono', monospace" font-size="9.5" fill="#5a3a8a" letter-spacing="2.5">// TECH STACK</text>
+
+    <g class="tag-1">
+      <rect x="40" y="152" width="74" height="28" rx="6" fill="#110d1e" stroke="#2e1a4a" stroke-width="1"/>
+      <text x="78" y="171" font-family="'Share Tech Mono', monospace" font-size="12" fill="#c8a8f0" text-anchor="middle" letter-spacing="0.5">C++</text>
+    </g>
+
+    <g class="tag-2">
+      <rect x="124" y="152" width="82" height="28" rx="6" fill="#110d1e" stroke="#2e1a4a" stroke-width="1"/>
+      <text x="165" y="171" font-family="'Share Tech Mono', monospace" font-size="12" fill="#c8a8f0" text-anchor="middle" letter-spacing="0.5">CMake</text>
+    </g>
+
+    <g class="tag-3">
+      <rect x="216" y="152" width="88" height="28" rx="6" fill="#110d1e" stroke="#2e1a4a" stroke-width="1"/>
+      <text x="260" y="171" font-family="'Share Tech Mono', monospace" font-size="12" fill="#c8a8f0" text-anchor="middle" letter-spacing="0.5">OpenGL</text>
+    </g>
+
+    <g class="tag-4">
+      <rect x="314" y="152" width="74" height="28" rx="6" fill="#110d1e" stroke="#2e1a4a" stroke-width="1"/>
+      <text x="351" y="171" font-family="'Share Tech Mono', monospace" font-size="12" fill="#c8a8f0" text-anchor="middle" letter-spacing="0.5">SFML</text>
+    </g>
+
+    <g class="tag-5">
+      <rect x="398" y="152" width="60" height="28" rx="6" fill="#110d1e" stroke="#2e1a4a" stroke-width="1"/>
+      <text x="428" y="171" font-family="'Share Tech Mono', monospace" font-size="12" fill="#c8a8f0" text-anchor="middle" letter-spacing="0.5">Go</text>
+    </g>
+
+    <line x1="40" y1="196" x2="820" y2="196" stroke="#2a1a3e" stroke-width="1"/>
+
+    <circle cx="48" cy="208" r="3" fill="#a064ff">
+      <animate attributeName="opacity" values="1;0.15;1" dur="1.4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="60" y="212" font-family="'Share Tech Mono', monospace" font-size="10" fill="#8844dd" letter-spacing="1">OPEN TO COLLABORATION</text>
+
+    <text x="820" y="212" font-family="'Share Tech Mono', monospace" font-size="10" fill="#3d2560" text-anchor="end" letter-spacing="1">// EOF</text>
+
+    <text x="820" y="32" font-family="'Share Tech Mono', monospace" font-size="10" fill="#2e1a4a" text-anchor="end" letter-spacing="0.5" opacity="0.06" font-size="120">{}</text>
+    <text x="780" y="135" font-family="monospace" font-size="110" fill="#a064ff" opacity="0.03" text-anchor="middle">{}</text>
+
+  </g>
+</svg>
